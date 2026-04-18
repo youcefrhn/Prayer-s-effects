@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموسوعة الشاملة: الخشوع في الصلاة وأثره السلوكي</title>
+    <style>
+        :root {
+            --primary-color: #1a5276;
+            --secondary-color: #d4ac0d;
+            --bg-color: #fdfefe;
+            --text-color: #2c3e50;
+        }
+        body {
+            font-family: 'Amiri', 'Segoe UI', Tahoma, sans-serif;
+            line-height: 1.9;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 15px;
+        }
+        header {
+            text-align: center;
+            border-bottom: 3px double var(--primary-color);
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+        }
+        h1 { color: var(--primary-color); font-size: 2.5em; }
+        h2 { 
+            color: var(--primary-color); 
+            background: #eaf2f8; 
+            padding: 10px 20px; 
+            border-right: 5px solid var(--secondary-color);
+            margin-top: 50px;
+        }
+        h3 { color: #117a65; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+        .info-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .behavior-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+        }
+        .behavior-table th, .behavior-table td {
+            border: 1px solid #abd4ed;
+            padding: 15px;
+            text-align: center;
+        }
+        .behavior-table th { background-color: var(--primary-color); color: white; }
+        .behavior-table tr:nth-child(even) { background-color: #f2f9ff; }
+        
+        .quiz-section {
+            background-color: #fef9e7;
+            border: 2px dashed var(--secondary-color);
+            padding: 30px;
+            margin-top: 60px;
+            border-radius: 15px;
+        }
+        .quiz-item { margin-bottom: 20px; font-weight: bold; color: #7d6608; }
+        footer { text-align: center; margin-top: 50px; font-size: 0.9em; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>الخشوع في الصلاة: رؤية إيمانية وسلوكية 🕊️</h1>
+        <p>دراسة معمقة تجمع بين فقه العبادة وفقه المعاملة</p>
+    </header>
+
+    <section>
+        <h2>أولاً: مفهوم الخشوع وأبعاده المعرفية 🧠</h2>
+        <p>الخشوع ليس مجرد سكون بدني، بل هو <strong>انكسار قلبي</strong> ناتج عن تعظيم الرب. وفقاً لمدرسة الشيخ الشويعر، الخشوع هو "العلم النافع"؛ فمن كان بالله أعرف، كان له أخشع. هو الحالة التي يجتمع فيها حضور الذهن مع خضوع الجوارح.</p>
+        <div class="info-box">
+            <strong>لماذا يغيب الخشوع؟</strong> غالباً ما يكون السبب هو الانشغال بـ "دنيا عاجلة" أو غياب التفكر في معاني الأذكار. الخشوع يحتاج إلى "مجاهدة" مستمرة وليس حالة تأتي بالصدفة.
+        </div>
+    </section>
+
+    <section>
+        <h2>ثانياً: التفصيل الفقهي (الواجبات والمكملات) ⚖️</h2>
+        <h3>1. الخشوع الواجب (الركن)</h3>
+        <p>هو الحد الأدنى لصحة الصلاة، وبدونه تعتبر الصلاة ناقصة أو باطلة عند بعض الفقهاء إذا انعدم تماماً:</p>
+        <ul>
+            <li><strong>الطمأنينة:</strong> وهي استقرار الأعضاء في كل ركن (الركوع، السجود، الرفع) بقدر تسبيحة واحدة على الأقل.</li>
+            <li><strong>ترك العبث:</strong> الحركة الكثيرة لغير ضرورة تذهب بروح الصلاة وتنافي ركن الخشوع.</li>
+        </ul>
+        <h3>2. الخشوع المستحب (روح العبادة)</h3>
+        <p>هو استحضار القلب لكل كلمة تُقال، وتدبر القرآن. هذا النوع هو الذي يحدد "درجة الصلاة"؛ فمن الناس من يصلي وله عشر صلاته، ومنهم من له نصفها.</p>
+    </section>
+
+    <section>
+        <h2>ثالثاً: مدرسة الأخلاق (الأثر السلوكي في الحياة) 🏫</h2>
+        <p>الصلاة مدرسة يومية تكرر خمس مرات لتصحيح مسار العبد السلوكي. الخشوع هو النافذة التي تطل منها قيم الصلاة على الشارع والسوق والبيت.</p>
+        
+        <table class="behavior-table">
+            <thead>
+                <tr>
+                    <th>الموقف داخل الصلاة</th>
+                    <th>القيمة الأخلاقية المكتسبة</th>
+                    <th>التطبيق في الحياة اليومية</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>السجود (وضع الجبهة أرضاً)</td>
+                    <td>التواضع 📉</td>
+                    <td>لين الجانب مع الناس وعدم التكبر عليهم.</td>
+                </tr>
+                <tr>
+                    <td>الوقوف في الصف بانتظام</td>
+                    <td>الانضباط والنظام 📏</td>
+                    <td>احترام المواعيد وحقوق الآخرين في الطابور والحياة.</td>
+                </tr>
+                <tr>
+                    <td>قول "الله أكبر" (الانتقالات)</td>
+                    <td>تعظيم الأولويات 🎯</td>
+                    <td>تقديم مراد الله وحقوق الناس على هوى النفس.</td>
+                </tr>
+                <tr>
+                    <td>التركيز وعدم الالتفات</td>
+                    <td>المراقبة (الإحسان) 👁️</td>
+                    <td>الأمانة في العمل حتى في غياب الرقيب البشري.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>رابعاً: خطوات عملية لتفريغ القلب (الفقه العملي) 🧹</h2>
+        <p>لتحقيق هذا المستوى من الخشوع، لابد من استراتيجية تسبق الصلاة:</p>
+        <ol>
+            <li><strong>التهيؤ المكاني:</strong> اختيار مكان هادئ بعيداً عن الصور والزخارف والمرايا.</li>
+            <li><strong>التهيؤ الزماني:</strong> التبكير بـ 5 دقائق يمنح العقل فرصة لعمل "إغلاق" (Shutdown) لمشاغل الدنيا.</li>
+            <li><strong>تغيير الأذكار:</strong> عدم الالتزام بذكر واحد دائماً، بل التنويع في أدعية الاستفتاح وأذكار الركوع لاستثارة الذهن.</li>
+        </ol>
+    </section>
+
+    <section class="quiz-section">
+        <h2>ختاماً: أسئلة الفهم والتدبر 🤔</h2>
+        <p>اختبر مدى استيعابك للمفاهيم السابقة:</p>
+        <div class="quiz-item">1. ما الفرق بين "الخشوع الواجب" و"خشوع المنافقين" كما ورد في أثر أبي الدرداء؟</div>
+        <div class="quiz-item">2. كيف يمكن للسجود أن يغير من تعاملك مع جارك أو زميلك في العمل؟</div>
+        <div class="quiz-item">3. ذكر التقرير أن الخشوع هو "علم"؛ فكيف تزيد حصيلتك العلمية لتعميق خشوعك؟</div>
+        <div class="quiz-item">4. هل تعتبر الصلاة صحيحة إذا خلت من "الطمأنينة"؟ ولماذا؟</div>
+    </section>
+
+    <footer>
+        حقوق المحتوى محفوظة - مقتبس من سلسلة دروس "فقه الصلاة" 2026
+    </footer>
+</div>
+
+</body>
+</html>
