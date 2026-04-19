@@ -3,162 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الموسوعة الشاملة: الخشوع في الصلاة وأثره السلوكي</title>
+    <title>موسوعة الخشوع: الفقه، الأثر، والمنهج</title>
     <style>
         :root {
-            --primary-color: #1a5276;
-            --secondary-color: #d4ac0d;
-            --bg-color: #fdfefe;
-            --text-color: #2c3e50;
+            --primary: #2c3e50;
+            --accent: #c0392b;
+            --success: #27ae60;
+            --bg: #f4f7f6;
         }
         body {
-            font-family: 'Amiri', 'Segoe UI', Tahoma, sans-serif;
-            line-height: 1.9;
-            background-color: var(--bg-color);
-            color: var(--text-color);
+            font-family: 'Amiri', serif, Tahoma;
+            line-height: 2;
+            background-color: var(--bg);
+            color: var(--primary);
             margin: 0;
-            padding: 20px;
+            padding: 0;
         }
         .container {
-            max-width: 1000px;
-            margin: auto;
-            background: white;
-            padding: 40px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            border-radius: 15px;
+            max-width: 1100px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
         header {
             text-align: center;
-            border-bottom: 3px double var(--primary-color);
+            border-bottom: 4px solid var(--accent);
             margin-bottom: 40px;
             padding-bottom: 20px;
         }
-        h1 { color: var(--primary-color); font-size: 2.5em; }
+        h1 { font-size: 3em; color: var(--primary); margin: 0; }
         h2 { 
-            color: var(--primary-color); 
-            background: #eaf2f8; 
-            padding: 10px 20px; 
-            border-right: 5px solid var(--secondary-color);
-            margin-top: 50px;
-        }
-        h3 { color: #117a65; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
-        .info-box {
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            padding: 20px;
+            background: var(--primary); 
+            color: #fff; 
+            padding: 15px 25px; 
             border-radius: 10px;
+            margin-top: 45px;
+        }
+        h3 { 
+            color: var(--accent); 
+            border-right: 5px solid var(--accent); 
+            padding-right: 15px; 
+            margin-top: 30px;
+        }
+        .content-box {
+            background: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 25px;
+            border-radius: 12px;
             margin: 20px 0;
         }
-        .behavior-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 25px 0;
+        .ethics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
         }
-        .behavior-table th, .behavior-table td {
-            border: 1px solid #abd4ed;
-            padding: 15px;
-            text-align: center;
+        .card {
+            background: #fff;
+            border-top: 5px solid var(--success);
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-radius: 8px;
         }
-        .behavior-table th { background-color: var(--primary-color); color: white; }
-        .behavior-table tr:nth-child(even) { background-color: #f2f9ff; }
-        
         .quiz-section {
-            background-color: #fef9e7;
-            border: 2px dashed var(--secondary-color);
+            background: #fff9e6;
+            border: 2px dashed #f1c40f;
             padding: 30px;
-            margin-top: 60px;
             border-radius: 15px;
+            margin-top: 50px;
         }
-        .quiz-item { margin-bottom: 20px; font-weight: bold; color: #7d6608; }
-        footer { text-align: center; margin-top: 50px; font-size: 0.9em; color: #7f8c8d; }
+        .quiz-question {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 15px;
+            color: #7f8c8d;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.9em;
+            color: #95a5a6;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <header>
-        <h1>الخشوع في الصلاة: رؤية إيمانية وسلوكية 🕊️</h1>
-        <p>دراسة معمقة تجمع بين فقه العبادة وفقه المعاملة</p>
+        <h1>فقه الخشوع وأثره السلوكي 🕊️</h1>
+        <p>دليل معرفي شامل يربط المحراب بالحياة - مقتبس من أصول التربية الإيمانية</p>
     </header>
 
     <section>
-        <h2>أولاً: مفهوم الخشوع وأبعاده المعرفية 🧠</h2>
-        <p>الخشوع ليس مجرد سكون بدني، بل هو <strong>انكسار قلبي</strong> ناتج عن تعظيم الرب. وفقاً لمدرسة الشيخ الشويعر، الخشوع هو "العلم النافع"؛ فمن كان بالله أعرف، كان له أخشع. هو الحالة التي يجتمع فيها حضور الذهن مع خضوع الجوارح.</p>
-        <div class="info-box">
-            <strong>لماذا يغيب الخشوع؟</strong> غالباً ما يكون السبب هو الانشغال بـ "دنيا عاجلة" أو غياب التفكر في معاني الأذكار. الخشوع يحتاج إلى "مجاهدة" مستمرة وليس حالة تأتي بالصدفة.
+        <h2>1. حقيقة الخشوع: العلم والقلب 🧠</h2>
+        <p>الخشوع ليس حالة طارئة بل هو <strong>ثمرة العلم بالله</strong>. وفقاً لما تدارسناه، فإن الخشوع الحقيقي هو انكسار القلب وتذلله لعظمة الرب، وهو أول ما يُفتقد من الدين في آخر الزمان. الخشوع هو الميزان الذي يفرق بين "أداء الحركات" و"إقامة الصلاة".</p>
+    </section>
+
+    <section>
+        <h2>2. الميزان الفقهي الدقيق ⚖️</h2>
+        <h3>أ. الخشوع الواجب (الأركان)</h3>
+        <p>بدون هذه العناصر، تصبح الصلاة مهددة بالبطلان:</p>
+        <ul>
+            <li><strong>الطمأنينة:</strong> استقرار الأعضاء في كل ركن (الركوع، السجود، الرفع).</li>
+            <li><strong>النية والقصد:</strong> استحضار أن العمل خالص لله وحده.</li>
+            <li><strong>سكون الجوارح:</strong> تجنب الحركة العبثية التي تخرج المصلي عن هيئة الصلاة.</li>
+        </ul>
+        <h3>ب. الخشوع المستحب (روح الصلاة)</h3>
+        <p>هو حضور القلب وتدبر معاني ما يُقرأ ويُقال. هذا الجانب هو الذي يحدد أجر المصلي (نصفها، ربعها، عشرها).</p>
+        <div class="content-box">
+            <strong>تنبيه: "خشوع المنافقين"</strong> هو أن تظهر الجوارح خاشعة والقلب لاهٍ؛ وهو انفصال خطير بين الظاهر والباطن.
         </div>
     </section>
 
     <section>
-        <h2>ثانياً: التفصيل الفقهي (الواجبات والمكملات) ⚖️</h2>
-        <h3>1. الخشوع الواجب (الركن)</h3>
-        <p>هو الحد الأدنى لصحة الصلاة، وبدونه تعتبر الصلاة ناقصة أو باطلة عند بعض الفقهاء إذا انعدم تماماً:</p>
-        <ul>
-            <li><strong>الطمأنينة:</strong> وهي استقرار الأعضاء في كل ركن (الركوع، السجود، الرفع) بقدر تسبيحة واحدة على الأقل.</li>
-            <li><strong>ترك العبث:</strong> الحركة الكثيرة لغير ضرورة تذهب بروح الصلاة وتنافي ركن الخشوع.</li>
-        </ul>
-        <h3>2. الخشوع المستحب (روح العبادة)</h3>
-        <p>هو استحضار القلب لكل كلمة تُقال، وتدبر القرآن. هذا النوع هو الذي يحدد "درجة الصلاة"؛ فمن الناس من يصلي وله عشر صلاته، ومنهم من له نصفها.</p>
-    </section>
-
-    <section>
-        <h2>ثالثاً: مدرسة الأخلاق (الأثر السلوكي في الحياة) 🏫</h2>
-        <p>الصلاة مدرسة يومية تكرر خمس مرات لتصحيح مسار العبد السلوكي. الخشوع هو النافذة التي تطل منها قيم الصلاة على الشارع والسوق والبيت.</p>
+        <h2>3. مدرسة الأخلاق: كيف نطل من نافذة الصلاة على الحياة؟ 🏫</h2>
+        <p>هنا يكمن الثراء الحقيقي؛ فالصلاة التي لا تغير السلوك هي صلاة "مبتورة الأثر". إليك كيف يتحول الخشوع إلى قيم عملية:</p>
         
-        <table class="behavior-table">
-            <thead>
-                <tr>
-                    <th>الموقف داخل الصلاة</th>
-                    <th>القيمة الأخلاقية المكتسبة</th>
-                    <th>التطبيق في الحياة اليومية</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>السجود (وضع الجبهة أرضاً)</td>
-                    <td>التواضع 📉</td>
-                    <td>لين الجانب مع الناس وعدم التكبر عليهم.</td>
-                </tr>
-                <tr>
-                    <td>الوقوف في الصف بانتظام</td>
-                    <td>الانضباط والنظام 📏</td>
-                    <td>احترام المواعيد وحقوق الآخرين في الطابور والحياة.</td>
-                </tr>
-                <tr>
-                    <td>قول "الله أكبر" (الانتقالات)</td>
-                    <td>تعظيم الأولويات 🎯</td>
-                    <td>تقديم مراد الله وحقوق الناس على هوى النفس.</td>
-                </tr>
-                <tr>
-                    <td>التركيز وعدم الالتفات</td>
-                    <td>المراقبة (الإحسان) 👁️</td>
-                    <td>الأمانة في العمل حتى في غياب الرقيب البشري.</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="ethics-grid">
+            <div class="card">
+                <h3>التواضع واللين</h3>
+                <p>من سجد لله بذلّ، ترفع عن الكبر على الخلق. السجود يربي فينا أننا جميعاً عبيد لرب واحد، مما يورث لين الجانب والرفق بالناس.</p>
+            </div>
+            <div class="card">
+                <h3>الرقابة الذاتية (الإحسان)</h3>
+                <p>الخشوع يعلمك أن الله يراك في المحراب؛ وهذا اليقين ينتقل معك إلى العمل والسوق، فتصبح الأمانة سجية لا تحتاج لرقيب بشري.</p>
+            </div>
+            <div class="card">
+                <h3>ضبط النفس والسكينة</h3>
+                <p>التدرب على سكون الجوارح 5 مرات يومياً هو أعظم تمرين على الهدوء النفسي وضبط الانفعالات في مواجهة ضغوط الحياة.</p>
+            </div>
+            <div class="card">
+                <h3>الاستقامة السلوكية</h3>
+                <p>الصلاة الخاشعة هي "فلتر" للأقوال والأفعال؛ تنهى عن الفحشاء والمنكر بمجرد استحضار هيبة الوقوف بين يدي الله.</p>
+            </div>
+        </div>
     </section>
 
     <section>
-        <h2>رابعاً: خطوات عملية لتفريغ القلب (الفقه العملي) 🧹</h2>
-        <p>لتحقيق هذا المستوى من الخشوع، لابد من استراتيجية تسبق الصلاة:</p>
+        <h2>4. منهجية تفريغ القلب (خارطة الطريق) 🧹</h2>
+        <p>لتحقيق هذا الثراء السلوكي، لابد من تهيئة تسبق التكبير:</p>
         <ol>
-            <li><strong>التهيؤ المكاني:</strong> اختيار مكان هادئ بعيداً عن الصور والزخارف والمرايا.</li>
-            <li><strong>التهيؤ الزماني:</strong> التبكير بـ 5 دقائق يمنح العقل فرصة لعمل "إغلاق" (Shutdown) لمشاغل الدنيا.</li>
-            <li><strong>تغيير الأذكار:</strong> عدم الالتزام بذكر واحد دائماً، بل التنويع في أدعية الاستفتاح وأذكار الركوع لاستثارة الذهن.</li>
+            <li><strong>التهيؤ المكاني والزماني:</strong> التبكير بـ 5 دقائق يمنح العقل فرصة للانفصال عن ضجيج الدنيا.</li>
+            <li><strong>تغيير العادات:</strong> تنويع الأذكار والآيات يمنع "آلية العقل" (Autopilot) ويجبر الذهن على الحضور.</li>
+            <li><strong>استحضار العظمة:</strong> تذكر أن "الله أكبر" من كل مشروع أو همّ تحمله في صدرك قبل الدخول في المحراب.</li>
         </ol>
     </section>
 
     <section class="quiz-section">
-        <h2>ختاماً: أسئلة الفهم والتدبر 🤔</h2>
-        <p>اختبر مدى استيعابك للمفاهيم السابقة:</p>
-        <div class="quiz-item">1. ما الفرق بين "الخشوع الواجب" و"خشوع المنافقين" كما ورد في أثر أبي الدرداء؟</div>
-        <div class="quiz-item">2. كيف يمكن للسجود أن يغير من تعاملك مع جارك أو زميلك في العمل؟</div>
-        <div class="quiz-item">3. ذكر التقرير أن الخشوع هو "علم"؛ فكيف تزيد حصيلتك العلمية لتعميق خشوعك؟</div>
-        <div class="quiz-item">4. هل تعتبر الصلاة صحيحة إذا خلت من "الطمأنينة"؟ ولماذا؟</div>
+        <h2>5. مختبر الفهم والقياس 🤔</h2>
+        <p>هذه الأسئلة تهدف لقياس عمق فهمك للرابط بين العبادة والسلوك:</p>
+        <span class="quiz-question">1. إذا وجد المصلي نفسه سريع الغضب مع أهله بعد الصلاة مباشرة، فأي جزء من "فقه السكون" لم ينتقل معه للحياة؟</span>
+        <span class="quiz-question">2. اشرح الفرق بين الطمأنينة كـ "ركن فقهي" والخشوع كـ "حالة قلبية".</span>
+        <span class="quiz-question">3. كيف يساهم التبكير للصلاة في تحسين "جودة" التعامل مع ضغوط العمل اليومية؟</span>
+        <span class="quiz-question">4. ما هو الضابط الذي يجعلنا نحكم بأن الصلاة حققت غايتها الأخلاقية (تنهى عن الفحشاء والمنكر)؟</span>
     </section>
 
     <footer>
-        حقوق المحتوى محفوظة - مقتبس من سلسلة دروس "فقه الصلاة" 2026
+        "صلوا كما رأيتموني أصلي" - تقرير شامل حول الخشوع والأثر السلوكي 2026
     </footer>
 </div>
 
